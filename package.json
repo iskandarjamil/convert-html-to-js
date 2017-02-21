@@ -1,14 +1,17 @@
 {
   "name": "convert-html-to-js",
   "main": "./lib/convert-html-to-js",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "author": {
     "name": "Iskandar Jamil",
     "email": "iskandar.jamil@yahoo.com",
     "url": "iskandarjamil.com"
   },
   "description": "Convert html elements into JavaSript array or string.",
-  "repository": "https://github.com/atom/convert-html-to-js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iskandarjamil/convert-html-to-js.git"
+  },
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
