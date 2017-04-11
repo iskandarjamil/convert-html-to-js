@@ -1,0 +1,41 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "HTML to JS: To Array",
+        "command": "html-to-javascript:convert-array"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "HTML to JS",
+          "submenu": [
+						{
+							"label": "To Array",
+							"command": "html-to-javascript:convert-array"
+						},{
+							"label": "To String",
+							"command": "html-to-javascript:convert-string"
+						},{
+							"label": "To Array Double Quote",
+							"command": "html-to-javascript:convert-array-double-quote"
+						},{
+							"label": "To String Double Quote",
+							"command": "html-to-javascript:convert-string-double-quote"
+						},{
+							"label": "Reverse",
+							"command": "html-to-javascript:convert-reverse"
+						},{
+							"label": "Reverse Double Quote",
+							"command": "html-to-javascript:convert-reverse-double-quote"
+						}
+          ]
+        }
+      ]
+    }
+  ]
+}
